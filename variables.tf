@@ -1,6 +1,5 @@
 variable "ssh_key_name" {
-  description = "The name of the SSH key pair to use for instances"
+  description = "AWS EC2 Key Pair name for SSH access (NOT .pem file)"
   type        = string
-  default     = "DevOps-Shack"
+  default     = "runner-ec2-key"
 }
-
